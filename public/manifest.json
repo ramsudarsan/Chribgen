@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Chribgen",
+  "version": "0.0",
+  "description": "A extension that allows you to easily search for books/journals on Libgen through various means!",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Chribgen"
+  },
+  "background": {
+    "scripts": [
+      "app/background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts":
+  [
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["app/contentScript.js"]
+      }
+  ],
+  "permissions": [
+    "contextMenus",
+    "<all_urls>",
+    "tabs"
+  ],
+  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
+
+}

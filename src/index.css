@@ -11,6 +11,21 @@ body {
   background-color: rgb(133,68,66);
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(60,47,47);
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgb(255,244,230);
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

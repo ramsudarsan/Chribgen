@@ -11,7 +11,7 @@
   "browser_action": {
     "default_popup": "index.html",
     "default_title": "Chribgen",
-    "default_icon": "icon_16.png"
+    "default_icon": "icon16.png"
   },
   "background": {
     "scripts": [

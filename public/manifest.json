@@ -3,10 +3,15 @@
   "name": "Chribgen",
   "version": "0.0",
   "description": "A extension that allows you to easily search for books/journals on Libgen through various means!",
-
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Chribgen"
+    "default_title": "Chribgen",
+    "default_icon": "icon_16.png"
   },
   "background": {
     "scripts": [

@@ -10,9 +10,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 let searchVal = '';
 
-chrome.runtime.sendMessage({msg: 'give me searchValue pls'}, function(response){
+chrome.runtime.sendMessage({ msg: 'give me searchValue pls' }, function (response) {
     document.getElementById('searchbar').value = response.searchVal
-    document.getElementById('searchbar').dispatchEvent(new Event('change'))
+    if (response.searchVal.length > 0) {
+        document.getElementById('searchbar').dispatchEvent(new Event('input', { 'bubbles': true, 'cancelable': false }))
+    }
 })
 
 // If you want your app to work offline and load faster, you can change

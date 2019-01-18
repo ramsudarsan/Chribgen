@@ -23,5 +23,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse)=> {
     if (request.msg === 'give me searchValue pls') {
         sendResponse({searchVal: searchValue})
     }
+    searchValue = '';
 })
 

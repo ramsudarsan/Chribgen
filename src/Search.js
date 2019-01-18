@@ -4,7 +4,7 @@ import './Search.css';
 const Search = ({updateSearch}) => {
     return (
         <div>
-            <input id="searchbar" type="search" onChange={updateSearch}></input>
+            <input id="searchbar" type="search" onInput={updateSearch}></input>
         </div>
     );
 }

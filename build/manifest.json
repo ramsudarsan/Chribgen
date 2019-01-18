@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Chribgen",
-  "version": "0.0",
+  "version": "1.0",
   "description": "A extension that allows you to easily search for books/journals on Libgen through various means!",
   "icons": {
     "16": "icon16.png",

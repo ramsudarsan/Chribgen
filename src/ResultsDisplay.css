@@ -1,5 +1,30 @@
 .loading {
-    margin-top: 25%;   
-    transform: scale(1.5)
+    transform: scale(.3);
+}
+.center-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255,244,230)
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nextButton, .previousButton {
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+    color: rgb(255,244,230);
+    border: 2px solid rgb(255, 244, 230);
+    padding: 15px 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 15px 5px 30px;
 }
 
+.nextButton:hover, .previousButton:hover {
+    background-color: rgb(255,244,230);
+    color: rgb(133,68,66);
+    border-color: rgb(133,68,66);
+}

@@ -1,0 +1,34 @@
+.result-div {
+    background-color: rgb(255,244,230);
+    border-radius: 4px;
+    width: 200px;
+    margin: 10px;
+    color: rgb(60,47,47);
+    
+}
+
+.result-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.titleelement{
+    color: rgb(84, 105, 119)
+}
+
+.authorelement{
+    color: rgb(94, 96, 129)
+}
+
+.resultnumber {
+    margin-top: 10px;
+}
+
+.download {
+    color: rgb(75,56,50);
+}

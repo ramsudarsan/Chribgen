@@ -1,0 +1,12 @@
+#searchbar {
+    background-color: rgb(190,155,123);
+    color: rgb(255,244,230);
+    border: 0px;
+    margin: 0px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+#searchbar:focus {
+   outline-color: rgb(255,255,230);
+}

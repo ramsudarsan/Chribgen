@@ -7,7 +7,7 @@ const IndividualResult = ({ result }) => {
             <ul className="result-list">
                 <li className="titleelement"><strong>Title:</strong> {result[1]}</li>
                 <li className="authorelement"><strong>Author(s):</strong> {result[2]}</li>
-                <li><a className="download" href={result[3]}>Download</a></li>
+                <a className="download" href={result[3]} target="_blank"><li>Download</li></a>
             </ul>
         </div>
     );

@@ -9,6 +9,7 @@ body {
   min-width: 300px;
   min-height: 200px;
   background-color: rgb(133,68,66);
+  border-radius: 2px;
 }
 
 body::-webkit-scrollbar {

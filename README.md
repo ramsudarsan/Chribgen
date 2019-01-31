@@ -4,6 +4,6 @@ A web extension made with React to gather non-torrent download links for books a
 
 I am not responsible for anything illegal or immoral that a user chooses to use this chrome extension for. I do not condone piracy in any way, and this is meant to be used for copyright-free sources.
 
-Link to extension on Chrome Web Store: 
+Link to extension on Chrome Web Store: https://chrome.google.com/webstore/detail/chribgen/emidcmbifldoiipielncpjlblooeeecp
 
 Icons made by Freepik from www.flaticon.com and edited by Ramkishore Sudarsan
